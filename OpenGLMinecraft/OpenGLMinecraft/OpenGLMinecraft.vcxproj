@@ -181,8 +181,8 @@
     <ClCompile Include="Shader.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="FragmentSource.txt" />
-    <Text Include="VertexSource.txt" />
+    <Text Include="FragmentSource.frag" />
+    <Text Include="VertexSource.vert" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Texture\awesomeface.png" />

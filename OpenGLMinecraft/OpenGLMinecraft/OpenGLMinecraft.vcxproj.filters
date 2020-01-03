@@ -53,10 +53,10 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="VertexSource.txt">
+    <Text Include="VertexSource.vert">
       <Filter>ShaderSource</Filter>
     </Text>
-    <Text Include="FragmentSource.txt">
+    <Text Include="FragmentSource.frag">
       <Filter>ShaderSource</Filter>
     </Text>
   </ItemGroup>
