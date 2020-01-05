@@ -1,2 +1,11 @@
 ﻿  OpenGLMinecraft.cpp
+f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(231): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(299): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(325): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(326): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(330): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(331): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(332): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(333): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(360): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
   OpenGLMinecraft.vcxproj -> F:\OPengl\OpenGLMinecraft\Debug\OpenGLMinecraft.exe
