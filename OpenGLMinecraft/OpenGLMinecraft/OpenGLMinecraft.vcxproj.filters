@@ -20,6 +20,9 @@
     <Filter Include="Texture">
       <UniqueIdentifier>{6aa12ab3-1ac7-45bf-ae1e-884937117dde}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{62f437bc-cd5e-4ac6-8d39-7c212ff4e9b3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="glad\glad.h">
@@ -37,6 +40,9 @@
     <ClInclude Include="ImageStb\stb_image.h">
       <Filter>ImageStb</Filter>
     </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -50,6 +56,9 @@
     </ClCompile>
     <ClCompile Include="Shader.cpp">
       <Filter>Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Camera</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
