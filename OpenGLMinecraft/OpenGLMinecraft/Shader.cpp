@@ -2,6 +2,7 @@
 #include <fstream>
 #include <sstream>
 #include <iostream>
+#include "ImageStb/stb_image.h"
 
 Shader::Shader(const char* vertexPath, const char* fragmentPath)
 {

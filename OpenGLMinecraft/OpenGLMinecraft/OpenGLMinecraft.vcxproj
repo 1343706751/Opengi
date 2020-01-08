@@ -167,12 +167,14 @@
     <ClInclude Include="glad\glad.h" />
     <ClInclude Include="glad\khrplatform.h" />
     <ClInclude Include="ImageStb\stb_image.h" />
+    <ClInclude Include="Material.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Shader.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Camera.cpp" />
     <ClCompile Include="glad\glad.c" />
+    <ClCompile Include="Material.cpp" />
     <ClCompile Include="OpenGLMinecraft.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -189,6 +191,9 @@
   <ItemGroup>
     <Image Include="Texture\awesomeface.png" />
     <Image Include="Texture\container.jpg" />
+    <Image Include="Texture\container2.png" />
+    <Image Include="Texture\container2_specular.png" />
+    <Image Include="Texture\lighting_maps_specular_color.png" />
     <Image Include="Texture\wall.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

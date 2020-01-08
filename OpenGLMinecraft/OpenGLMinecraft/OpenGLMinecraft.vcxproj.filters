@@ -43,6 +43,9 @@
     <ClInclude Include="Camera.h">
       <Filter>Camera</Filter>
     </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -59,6 +62,9 @@
     </ClCompile>
     <ClCompile Include="Camera.cpp">
       <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Shader</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -77,6 +83,15 @@
       <Filter>Texture</Filter>
     </Image>
     <Image Include="Texture\container.jpg">
+      <Filter>Texture</Filter>
+    </Image>
+    <Image Include="Texture\container2.png">
+      <Filter>Texture</Filter>
+    </Image>
+    <Image Include="Texture\container2_specular.png">
+      <Filter>Texture</Filter>
+    </Image>
+    <Image Include="Texture\lighting_maps_specular_color.png">
       <Filter>Texture</Filter>
     </Image>
   </ItemGroup>
