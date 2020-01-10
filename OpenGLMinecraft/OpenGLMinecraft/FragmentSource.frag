@@ -12,11 +12,17 @@ struct Material {
 	float Shininess;
 };
 
-uniform Material material;
+struct LightPoint{
+	vec3 lightPos; 
+	vec3 lightColor;
+	vec3 lightDir;
+};
 
-uniform vec3 lightPos; 
+
+uniform Material material;
+uniform LightPoint lightPoint;
+
 uniform vec3 viewPos; 
-uniform vec3 lightColor;
 uniform vec3 objectColor;
 
 void main()
@@ -27,7 +33,7 @@ void main()
   	
     // diffuse 
     vec3 norm = normalize(Normal);
-    vec3 lightDir = normalize(lightPos - FragPos);
+    //vec3 lightDir = normalize(lightPos - FragPos);
     float diff = max(dot(norm, lightDir), 0.0);
     vec3 diffuse = texture(material.Diffuse, TextureCoords).rgb  * diff * lightColor;
 

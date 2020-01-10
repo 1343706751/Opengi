@@ -7,6 +7,9 @@
 #include "Camera.h"
 #include "Shader.h"
 #include "Material.h"
+#include "LightDirectional.h"
+#include "LightPoint.h"
+#include "lightSpot.h"
 
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
@@ -97,6 +100,9 @@ int main()
 		64.0f);
 
 #pragma endregion
+
+	LightDirectional* MyLightDirectional = new LightDirectional(lightPos,glm::vec3(glm::radians(45.0f), glm::radians(0.0f), glm::radians(0.0f)));
+
 
 	// set up vertex data (and buffer(s)) and configure vertex attributes
 	// ------------------------------------------------------------------

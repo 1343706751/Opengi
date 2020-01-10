@@ -167,6 +167,10 @@
     <ClInclude Include="glad\glad.h" />
     <ClInclude Include="glad\khrplatform.h" />
     <ClInclude Include="ImageStb\stb_image.h" />
+    <ClInclude Include="LightBase.h" />
+    <ClInclude Include="LightDirectional.h" />
+    <ClInclude Include="LightPoint.h" />
+    <ClInclude Include="lightSpot.h" />
     <ClInclude Include="Material.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Shader.h" />
@@ -174,6 +178,10 @@
   <ItemGroup>
     <ClCompile Include="Camera.cpp" />
     <ClCompile Include="glad\glad.c" />
+    <ClCompile Include="LightBase.cpp" />
+    <ClCompile Include="LightDirectional.cpp" />
+    <ClCompile Include="LightPoint.cpp" />
+    <ClCompile Include="lightSpot.cpp" />
     <ClCompile Include="Material.cpp" />
     <ClCompile Include="OpenGLMinecraft.cpp" />
     <ClCompile Include="pch.cpp">
