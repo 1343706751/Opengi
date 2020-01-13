@@ -1,21 +1,13 @@
-﻿  pch.cpp
-  Camera.cpp
-  LightBase.cpp
-  LightDirectional.cpp
-  LightPoint.cpp
-  lightSpot.cpp
-  Material.cpp
+﻿  Material.cpp
   OpenGLMinecraft.cpp
-f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(218): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(324): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(325): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(329): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(330): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(332): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(333): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(342): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-  Shader.cpp
+f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(191): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(283): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(284): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(288): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(289): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(291): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(292): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(301): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   Generating Code...
-  glad.c
 LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
   OpenGLMinecraft.vcxproj -> F:\OPengl\OpenGLMinecraft\Debug\OpenGLMinecraft.exe
