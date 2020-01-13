@@ -10,8 +10,8 @@ public:
 	float linear;
 	float quadratic;
 
-	float Inner;
-	float Out;
+	float InnerLine;
+	float OutLine;
 
 };
 

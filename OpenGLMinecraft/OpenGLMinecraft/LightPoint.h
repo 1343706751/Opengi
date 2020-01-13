@@ -6,8 +6,8 @@ class LightPoint : public LightBase
 public:
 	~LightPoint();
 public:
-	float constant;
-	float linear;
-	float quadratic;
+	float Constant;
+	float Linear;
+	float Quadratic;
 };
 

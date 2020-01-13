@@ -9,6 +9,11 @@ public:
 	~LightBase();
 
 public:
+	
+	glm::vec3 Ambient;
+	glm::vec3 Diffuse;
+	glm::vec3 Specular;
+
 	glm::vec3 Position;
 	glm::vec3 Angles;
 	glm::vec3 Color;
