@@ -219,6 +219,7 @@ int main()
 
 		// draw floor as normal, but don't write the floor to the stencil buffer, we only care about the containers. We set its mask to 0x00 to not write to the stencil buffer.
 		glStencilMask(false);
+		glStencilFunc(GL_ALWAYS, 1, true);
 		// floor
 		glBindVertexArray(planeVAO);
 		glBindTexture(GL_TEXTURE_2D, floorTexture);
@@ -228,7 +229,8 @@ int main()
 
 		// 1st. render pass, draw objects as normal, writing to the stencil buffer
 		// --------------------------------------------------------------------
-		glStencilFunc(GL_ALWAYS, 1, true);
+		glStencilFunc(GL_ALWAYS, 3, true);
+		glDisable(GL_DEPTH_TEST);
 		glStencilMask(true);
 		// cubes
 		glBindVertexArray(cubeVAO);
@@ -248,9 +250,8 @@ int main()
 		// Because the stencil buffer is now filled with several 1s. The parts of the buffer that are 1 are not drawn, thus only drawing 
 		// the objects' size differences, making it look like borders.
 		// -----------------------------------------------------------------------------------------------------------------------------
-		glStencilFunc(GL_NOTEQUAL, 1, true);
+		glStencilFunc(GL_EQUAL, 0, true);
 		glStencilMask(false);
-		glDisable(GL_DEPTH_TEST);
 		shaderSingleColor.use();
 		float scale = 1.1;
 		// cubes
@@ -268,6 +269,26 @@ int main()
 		shaderSingleColor.setMat4("model", model);
 		shaderSingleColor.setVec4("textureColor", glm::vec4(1.0f, 0.0f, 1.0f, 1.0f));
 		glDrawArrays(GL_TRIANGLES, 0, 36);
+		glBindVertexArray(0);
+		glStencilMask(true);
+		glEnable(GL_DEPTH_TEST);
+
+
+
+		shader.use();
+		shader.setMat4("view", view);
+		shader.setMat4("projection", projection);
+		glStencilFunc(GL_EQUAL, 3, true);
+		// draw floor as normal, but don't write the floor to the stencil buffer, we only care about the containers. We set its mask to 0x00 to not write to the stencil buffer.
+		glStencilMask(false);
+		//glStencilFunc(GL_ALWAYS, 1, true);
+		// floor
+		glBindVertexArray(planeVAO);
+		glBindTexture(GL_TEXTURE_2D, floorTexture);
+		model = glm::mat4(1.0f);
+		model = glm::translate(model, glm::vec3(0.0f, -0.01f, 0.0f));
+		shader.setMat4("model", model);
+		glDrawArrays(GL_TRIANGLES, 0, 6);
 		glBindVertexArray(0);
 		glStencilMask(true);
 		glEnable(GL_DEPTH_TEST);
