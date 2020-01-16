@@ -198,9 +198,11 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="Texture\awesomeface.png" />
+    <Image Include="Texture\blending_transparent_window.png" />
     <Image Include="Texture\container.jpg" />
     <Image Include="Texture\container2.png" />
     <Image Include="Texture\container2_specular.png" />
+    <Image Include="Texture\grass.png" />
     <Image Include="Texture\lighting_maps_specular_color.png" />
     <Image Include="Texture\wall.jpg" />
   </ItemGroup>

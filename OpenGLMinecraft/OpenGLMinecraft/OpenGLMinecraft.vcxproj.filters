@@ -121,6 +121,12 @@
     <Image Include="Texture\lighting_maps_specular_color.png">
       <Filter>Texture</Filter>
     </Image>
+    <Image Include="Texture\grass.png">
+      <Filter>Texture</Filter>
+    </Image>
+    <Image Include="Texture\blending_transparent_window.png">
+      <Filter>Texture</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
