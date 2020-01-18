@@ -207,7 +207,9 @@
     <Image Include="Texture\wall.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="FragmentSource2.frag" />
     <None Include="packages.config" />
+    <None Include="VertexSource2.vert" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

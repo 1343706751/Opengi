@@ -130,5 +130,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="FragmentSource2.frag">
+      <Filter>ShaderSource</Filter>
+    </None>
+    <None Include="VertexSource2.vert">
+      <Filter>ShaderSource</Filter>
+    </None>
   </ItemGroup>
 </Project>
