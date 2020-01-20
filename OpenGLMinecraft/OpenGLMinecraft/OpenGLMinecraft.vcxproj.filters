@@ -26,6 +26,9 @@
     <Filter Include="Light">
       <UniqueIdentifier>{c81b2b68-d222-4f7d-96c4-f8bf3bca652f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="skybox">
+      <UniqueIdentifier>{e4cbd1bf-794a-4fbb-8cc2-4922e031562c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="glad\glad.h">
@@ -126,6 +129,24 @@
     </Image>
     <Image Include="Texture\blending_transparent_window.png">
       <Filter>Texture</Filter>
+    </Image>
+    <Image Include="skybox\back.jpg">
+      <Filter>skybox</Filter>
+    </Image>
+    <Image Include="skybox\bottom.jpg">
+      <Filter>skybox</Filter>
+    </Image>
+    <Image Include="skybox\front.jpg">
+      <Filter>skybox</Filter>
+    </Image>
+    <Image Include="skybox\left.jpg">
+      <Filter>skybox</Filter>
+    </Image>
+    <Image Include="skybox\right.jpg">
+      <Filter>skybox</Filter>
+    </Image>
+    <Image Include="skybox\top.jpg">
+      <Filter>skybox</Filter>
     </Image>
   </ItemGroup>
   <ItemGroup>
