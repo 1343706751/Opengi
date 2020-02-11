@@ -1,10 +1,10 @@
 ﻿  OpenGLMinecraft.cpp
-f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(240): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(352): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(353): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(357): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(358): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(360): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(361): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(370): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(251): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(364): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(365): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(369): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(370): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(372): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(373): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(382): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
   OpenGLMinecraft.vcxproj -> F:\OPengl\OpenGLMinecraft\Debug\OpenGLMinecraft.exe
