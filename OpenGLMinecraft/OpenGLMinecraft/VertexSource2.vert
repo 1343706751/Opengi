@@ -1,14 +1,30 @@
 #version 330 core
-layout (location = 0) in vec3 aPos;
+layout (points) in;
+layout (triangle_strip, max_vertices = 5) out;
 
-out vec3 TexCoords;
+in VS_OUT {
+    vec3 color;
+} gs_in[];
 
-uniform mat4 projection;
-uniform mat4 view;
+out vec3 fColor;
 
-void main()
-{
-    TexCoords = aPos;
-    vec4 pos = projection * view * vec4(aPos, 1.0);
-    gl_Position = pos.xyww;
-}  
+void build_house(vec4 position)
+{    
+    fColor = gs_in[0].color; // gs_in[0] since there's only one input vertex
+    gl_Position = position + vec4(-0.2, -0.2, 0.0, 0.0); // 1:bottom-left   
+    EmitVertex();   
+    gl_Position = position + vec4( 0.2, -0.2, 0.0, 0.0); // 2:bottom-right
+    EmitVertex();
+    gl_Position = position + vec4(-0.2,  0.2, 0.0, 0.0); // 3:top-left
+    EmitVertex();
+    gl_Position = position + vec4( 0.2,  0.2, 0.0, 0.0); // 4:top-right
+    EmitVertex();
+    gl_Position = position + vec4( 0.0,  0.4, 0.0, 0.0); // 5:top
+    fColor = vec3(1.0, 1.0, 1.0);
+    EmitVertex();
+    EndPrimitive();
+}
+
+void main() {    
+    build_house(gl_in[0].gl_Position);
+}
