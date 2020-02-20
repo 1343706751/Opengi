@@ -1,9 +1,10 @@
 ﻿  OpenGLMinecraft.cpp
-f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(200): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(201): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(205): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(206): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(208): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(209): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(218): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(226): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(314): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(315): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(319): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(320): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(322): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(323): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(332): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
   OpenGLMinecraft.vcxproj -> F:\OPengl\OpenGLMinecraft\Debug\OpenGLMinecraft.exe
