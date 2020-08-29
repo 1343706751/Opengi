@@ -96,6 +96,9 @@
     <ClCompile Include="lightSpot.cpp">
       <Filter>Light</Filter>
     </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="VertexSource.vert">
