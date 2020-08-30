@@ -1,2 +1,20 @@
-﻿  main.cpp
+﻿  pch.cpp
+  Camera.cpp
+  LightBase.cpp
+  LightDirectional.cpp
+  LightPoint.cpp
+  lightSpot.cpp
+  Material.cpp
+  OpenGLMinecraft.cpp
+f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(142): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(230): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(231): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(235): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(236): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(238): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(239): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+f:\opengl\openglminecraft\openglminecraft\openglminecraft.cpp(248): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  Shader.cpp
+  正在生成代码...
+  glad.c
   OpenGLMinecraft.vcxproj -> F:\Opengl\OpenGLMinecraft\Debug\OpenGLMinecraft.exe
